@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  justify-content: space-around;
+  background-color: black;
+  padding: 30px;
+  gap: 70px;
+  display: flex;
+  color: white;
+}
+
+.body {
+  background-color: black;
+  color: white;
+  justify-content: center;
+}
+
+h3 {
+  justify-content: center;
+}
