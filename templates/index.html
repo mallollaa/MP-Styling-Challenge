@@ -8,33 +8,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Apple Store</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <div><ul class="navbar">
-      <li><a href="store">Home</a></li>
-      <li><a href="mac">News</a></li>
-      <li><a href="Ipad">Contact</a></li>
-      <li><a href="Iphone">About</a></li>
-      <li><a href="whatch">About</a></li>
-      <li><a href="airpods">About</a></li>
-      <li><a href="support">About</a></li>
-    </ul></div>
+
+
+    <div><ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="store">store</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mac">mac</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ipad">ipad</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="iphone">iphone</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="whatch">whatch</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ipad">ipad</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="onlyOnApple">only on apple </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">support</a>
+        <li class="nav-item">
+          <a class="nav-link" href="WheretoBuy">Where to Buy</a>
+          </li>
+        </li></div>
+     
     
   </head>
-  <body class="body"> 
-   
-    <div>
-      
-      <img src="" alt="MacBookpro">
-        <h3 class ="h3">MacBook Pro</h3>
-        <img src="{% static 'assets/image/MacBook.jpg' %}" alt="MacBook"
-        width="500vw">
-      </a>
+  <br>
+  <body class= "body"><div>
+    <div class="container"> 
+      <h1 class="text1">Introducing the new MacBook Pro and Mac mini.</h1>
+      <h3 class="text1">MacBook Pro</h3>
+      <img src="{% static 'assets/image/macbookpro.png' %}" class="rounded mx-auto d-block" alt="MacBook" width="900vm"></div>
+        
+      <br></div>
+      <img src="{% static 'assets/image/macmini.png' %}" class="rounded mx-auto d-block" alt="Macmini" width="900vm">
     </div>
-    <br>
-    <div>
-      <img src="{% static 'assets/image/macmini.png' %}" alt="Macmini"
-      width="500vw>
-    </div>
+    <div class="pic">
+      <div class="container text-center pic">
+        <div class="row row-cols-2" >
+          <div class="col"><img src="{% static 'assets/image/iphonemini.png' %}" width="400px" alt="" ></div>
+          <div class="col"><img src="{% static 'assets/image/applewhatch.png' %}" alt="" width="400px" ></div>
+          <div class="col"><img src="{% static 'assets/image/mackmini.png' %}"  alt="" width="400px" ></div>
+          <div class="col"><img src="{% static 'assets/image/airpods.png' %}"  alt="" width="400px"></div>
+        </div>
+  </div></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
